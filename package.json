@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "This is a library management API Backend for the management of users and the books",
+  "homepage": "https://github.com/atharva-0605/Project#readme",
+  "bugs": {
+    "url": "https://github.com/atharva-0605/Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharva-0605/Project.git"
+  },
+  "license": "ISC",
+  "author": "Atharva Pawar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.11"
+  }
+}
